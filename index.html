@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>es2015 Course</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-container">
+                <form id="myForm" action="">
+                    <div class="form-group">
+                        <label for="user_name">Name</label>
+                        <input type="text" class="form-control" id="user_name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_email">Email</label>
+                        <input type="email" class="form-control" id="user_email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_age">Age</label>
+                        <input type="text" class="form-control" id="user_age" placeholder="Enter age">
+                    </div>
+                    <p class="text-danger" id="error">Something is missing!</p>
+                    <input id="submit" type="submit" class="btn btn-block btn-primary" value="Add user">
+                </form>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 content-container cards-content">
+                
+                <div class="row" id="parent_avatars">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
